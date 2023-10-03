@@ -66,7 +66,7 @@ header nav div ul li{
 
 .indexElementos{
     display: inline-block;
-    background-color: #FFE5E5;
+    background-color: #c44242;
     border: 1px solid black;
     border-radius: 20px;
     padding: 1%;
@@ -98,7 +98,7 @@ section div img{
     margin-right: 3%;
     margin-top: 1%;
     padding: 1%;
-    background-color:#e3cff5;
+    background-color:rgb(221, 215, 215);
     border-radius: 40px;
 }
 
@@ -262,6 +262,7 @@ footer div a img{
 
 .floresdebachTemas{
     font-weight: lighter;
+    margin-top: 1%;
     margin-left: 3%;
     margin-right: 3%;
     font-size: 1.3rem;
