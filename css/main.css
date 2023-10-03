@@ -1,0 +1,431 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos home */
+
+body{
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    background-color: #F3FDE8;
+}
+
+.menuIndex{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+header nav div a .imgLogo{
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 7%;
+    width: 7%;
+}
+
+header nav div ul li{
+    font-size: 0.9rem;
+    align-self: center;
+    text-align: center;
+    padding: 2px;
+    border: 5px ridge #A8DF8E;
+    border-radius: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.indexGaston{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: #A8DF8E;
+    margin:1%;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.indexPortales{
+    font-size: 1.4rem;
+    margin-left: 3%;
+}
+.indexTitulo{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.indexIntroduccion{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.indexElementos{
+    display: inline-block;
+    background-color: #FFE5E5;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.sectionIndex{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+}
+
+section div img{
+    height: 80%;
+    width: 80%;
+}
+
+.img1{
+    margin-left: 10%;
+}
+
+.articleIndex{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    padding: 1%;
+    background-color:#e3cff5;
+    border-radius: 40px;
+}
+
+article h3{
+    font-size: 1.4rem;
+}
+
+article h4{
+    font-size: 1.2rem;
+}
+
+.articleTemas{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.articleTitulos{
+    color: #8a1aec;
+    font-weight: bolder;
+}
+
+.imgIndex{
+    display: grid;
+    justify-content: center;
+}
+
+.footerIndex{
+    padding: 1%;
+    color: white;
+    background-color: black;
+}
+
+.redesUno{
+    font-size: 1.1rem;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.footerEmail{
+    margin-left: 3%;
+    font-weight: lighter;
+}
+
+.footerDerechos{
+    text-align: center;
+}
+
+footer h5{
+    font-family: 'Lora', serif;
+    font-size: 0.7rem;
+}
+
+footer div a img{
+    margin-left: 3%;
+    height: 4%;
+    width: 4%;
+}
+
+/* estilos pag flores de bach */
+
+.floresdebachGaston{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: #A8DF8E;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.floresdebachTitulos{
+    font-size: 1.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.floresdebachFases{
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 1.2rem;
+}
+
+.floresdebachObjetivo{
+    font-weight: bolder;
+}
+
+.floresdebachBases{
+    display: inline-block;
+    background-color:  rgb(255, 225, 180);
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 1.3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+.floresdebachContenido{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.floresdebachEtapas{
+    display: inline-block;
+    color: #a218b4;
+    font-weight: bolder;
+}
+
+.floresdebachEtapasDos{
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    background-color: #c4f1a5;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.floresdebachEtapasTres{
+    display: inline-block;
+    color: #e26c0a;
+    font-weight: bolder;
+}
+
+.floresdebachEtapasCuatro{
+    display: inline-block;
+    color: #0aa5e2;
+    font-weight: bolder;
+}
+
+.floresdebachEtapasCinco{
+    text-decoration: underline;
+}
+
+.floresdebachMetodologia{
+    display: inline-block;
+    background-color: #cfdcf5;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 1.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.floresdebachNegritas{
+    font-size: 1.2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: bolder;
+}
+
+.floresdebachTemas{
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.3rem;
+}
+
+.asideFloresdebach{
+    margin-bottom: 2%;
+}
+
+/* estylos pag desintoxicacion */
+
+.desintoxicacionGaston{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: #A8DF8E;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.desintoxicacionIntroduccion{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.desintoxicacionContenido{
+    font-weight: lighter;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.desintoxicacionItems{
+    padding: 4px;
+    background-color: #bea6d3;
+    border-radius: 40px;
+}
+
+.desintoxicacionElementos{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.desintoxicacionPartes{
+    color: #a147f0;
+    font-weight: bolder;
+}
+
+.desintoxicacionMetales{
+    font-weight: lighter;
+    padding: 1%;
+    font-size: 1.4rem;
+}
+
+.desintoxicacionSection{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #89ebbd;
+    border-radius: 40px;
+}
+
+.desintoxicacionAside{
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(255, 225, 180);
+}
+
+.desintoxicacionRecordatorio{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.desintoxicacionFooter{
+    color: white;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+footer h7{
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+}
+
+/* stylos pag fitoterapia */
+
+.fitoterapiaGaston{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: #A8DF8E;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.fitoterapiaIntroduccion{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fitoterapiaContenido{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.fitoterapiaFactores{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.factoresPrincipales{
+    color: rgb(201, 1, 1);
+    font-weight: bolder;
+}
+
+.fitoterapiaPrevencion{
+    border-radius: 40px;
+    padding: 1%;
+    background-color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.fitoterapiaPlantas{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    padding: 1%;
+}
+
+.fitoterapiaSpan{
+    font-weight: bolder;
+    color: rgb(0, 185, 0);
+}
+
+.fitoterapiaDescripcion{
+    margin-left: 4%;
+    margin-right: 3%;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
