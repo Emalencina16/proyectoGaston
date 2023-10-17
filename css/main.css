@@ -20,8 +20,8 @@ body{
 }
 
 header nav div a .imgLogo{
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
     height: 7%;
     width: 7%;
 }
@@ -49,7 +49,7 @@ header nav div ul li{
 
 .indexPortales{
     font-size: 1.4rem;
-    margin-left: 3%;
+    text-align: center;
 }
 .indexTitulo{
     font-weight: bolder;
@@ -59,21 +59,22 @@ header nav div ul li{
 .indexIntroduccion{
     font-weight: lighter;
     font-size: 1.3rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
 }
 
 .indexElementos{
+    color: rgb(0, 0, 0);
     display: inline-block;
-    background-color: #c44242;
-    border: 1px solid black;
+    border: 2px solid rgb(218, 99, 3);
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 1%;
     font-size: 1.2rem;
     display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
 }
 
@@ -89,16 +90,25 @@ section div img{
     width: 80%;
 }
 
+.indexReferencias{
+    margin-top: 1%;
+    color: rgb(180, 180, 180);
+    font-size: 0.7rem;
+    margin-left: 30%;
+    font-style: italic;
+}
+
 .img1{
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 .articleIndex{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     padding: 1%;
     background-color:rgb(221, 215, 215);
+    border: 2px solid grey;
     border-radius: 40px;
 }
 
@@ -111,8 +121,8 @@ article h4{
 }
 
 .articleTemas{
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     font-size: 1.2rem;
     font-weight: lighter;
@@ -136,12 +146,12 @@ article h4{
 
 .redesUno{
     font-size: 1.1rem;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 1%;
 }
 
 .footerEmail{
-    margin-left: 3%;
+    margin-left: 5%;
     font-weight: lighter;
 }
 
@@ -155,9 +165,9 @@ footer h5{
 }
 
 footer div a img{
-    margin-left: 3%;
-    height: 4%;
-    width: 4%;
+    margin-left: 5%;
+    height: 3%;
+    width: 3%;
 }
 
 /* estilos pag flores de bach */
@@ -174,13 +184,13 @@ footer div a img{
 
 .floresdebachTitulos{
     font-size: 1.5rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .floresdebachFases{
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
     font-size: 1.2rem;
 }
 
@@ -191,18 +201,19 @@ footer div a img{
 .floresdebachBases{
     display: inline-block;
     background-color:  rgb(255, 225, 180);
+    border: 1px solid grey;
     border-radius: 20px;
     padding: 1%;
     font-size: 1.3rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     font-weight: lighter;
 }
 
 .floresdebachContenido{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     font-size: 1.2rem;
     font-weight: bolder;
@@ -216,8 +227,8 @@ footer div a img{
 
 .floresdebachEtapasDos{
     display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     background-color: #c4f1a5;
     font-size: 1.2rem;
@@ -226,7 +237,7 @@ footer div a img{
 
 .floresdebachEtapasTres{
     display: inline-block;
-    color: #e26c0a;
+    color: #aa1a1a;
     font-weight: bolder;
 }
 
@@ -247,25 +258,37 @@ footer div a img{
     border-radius: 20px;
     padding: 1%;
     font-size: 1.5rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
 
 .floresdebachNegritas{
     font-size: 1.2rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: bolder;
 }
 
 .floresdebachTemas{
     font-weight: lighter;
     margin-top: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 1.3rem;
+}
+
+.principiosBioeticos{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.floresdebachQuintopunto{
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color: #c4f1a5;
 }
 
 .asideFloresdebach{
@@ -295,11 +318,12 @@ footer div a img{
     font-weight: lighter;
     margin-top: 1%;
     font-size: 1.3rem;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .desintoxicacionItems{
+    border: 1px solid grey;
     padding: 4px;
     background-color: #bea6d3;
     border-radius: 40px;
@@ -308,12 +332,12 @@ footer div a img{
 .desintoxicacionElementos{
     font-size: 1.2rem;
     margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .desintoxicacionPartes{
-    color: #a147f0;
+    color: #26d403;
     font-weight: bolder;
 }
 
@@ -325,21 +349,23 @@ footer div a img{
 
 .desintoxicacionSection{
     margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: #89ebbd;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #eeedd0;
+    border: 3px solid rgb(255, 111, 111);
     border-radius: 40px;
 }
 
 .desintoxicacionAside{
     padding: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 1px solid black;
+    border: 2px solid rgb(150, 6, 150);
     border-radius: 40px;
-    background-color: rgb(255, 225, 180);
+    background-color: white;
+    font-style: italic;
 }
 
 .desintoxicacionRecordatorio{
@@ -381,8 +407,8 @@ footer h7{
 }
 
 .fitoterapiaContenido{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 2%;
     font-weight: lighter;
     font-size: 1.3rem;
@@ -391,8 +417,8 @@ footer h7{
 .fitoterapiaFactores{
     font-size: 1.2rem;
     margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .factoresPrincipales{
@@ -403,17 +429,24 @@ footer h7{
 .fitoterapiaPrevencion{
     border-radius: 40px;
     padding: 1%;
-    background-color: whitesmoke;
     font-size: 1.4rem;
     font-weight: lighter;
     margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fitoterapiaMetodos{
+    display: inline-block;
+    padding: 1%;
+    background-color: #86f8cc;
+    border-radius: 40px;
+    border: 1px solid grey;
 }
 
 .fitoterapiaPlantas{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1%;
     font-size: 1.3rem;
     padding: 1%;
@@ -425,8 +458,75 @@ footer h7{
 }
 
 .fitoterapiaDescripcion{
-    margin-left: 4%;
-    margin-right: 3%;
+    margin-left: 6%;
+    margin-right: 5%;
     font-weight: lighter;
     font-size: 1.3rem;
+}
+
+/* stylos pag medicina del dolor  */
+
+.medicinaGaston{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: #A8DF8E;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.medicinaIntroduccion{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.medicinaContenido{
+    font-weight: lighter;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.medicinaNegrita{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.medicinaSpan{
+    text-decoration: underline;
+}
+
+.medicinaTitulos{
+    font-size: 1.4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 1%;
+    background-color:rgb(136, 235, 202);
+    border: 2px solid grey;
+    border-radius: 40px;
+}
+
+.medicinaUtilidad{
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 1%;
+    background-color:rgb(139, 230, 241);
+    border-radius: 40px;
+}
+
+section div ul li{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: lighter;
+    background-color: rgb(168, 240, 168);
 }
